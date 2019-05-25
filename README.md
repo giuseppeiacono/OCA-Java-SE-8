@@ -3,8 +3,8 @@
 This project includes notes and exercises about [Oracle Certified Associate, Java SE 8 Programmer](https://education.oracle.com/oracle-certified-associate-java-se-8-programmer/trackp_333)
 
 Whole content is based on the official Oracle book to prepare this certification:
-> OCA Java SE 8 Programmer I Exam Guide (Exam 1Z0-808),
-Kathy Sierra, <sub><sup>SCJP</sup></sub>
+> OCA Java SE 8 Programmer I Exam Guide (Exam 1Z0-808),<br />
+Kathy Sierra, <sub><sup>SCJP</sup></sub><br />
 Bert Bates, <sub><sup>SCJP, OCA, OCP</sup></sub>
 
 ## Project Structure
