@@ -1,5 +1,3 @@
-package oca.exam_1Z0_808.chapter_1.self_tests.test_2;
-
 class Rocket {
     private void blastOff() { System.out.print("bang "); }
 }

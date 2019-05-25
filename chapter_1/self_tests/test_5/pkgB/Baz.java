@@ -1,7 +1,7 @@
-package oca.exam_1Z0_808.chapter_1.self_tests.test_5.pkgB;
 
-import oca.exam_1Z0_808.chapter_1.self_tests.test_5.pkgA.*;
 
+package pkgB;
+import pkgA.*;
 public class Baz {
     public static void main(String[] args) {
         Foo f = new Foo();
@@ -12,7 +12,7 @@ public class Baz {
 }
 
 /**
- * ______________________________________________________________________________
+ * _________________________________________________________________________________
  *
  * CORRECT answers |
  * -----------------
@@ -21,7 +21,7 @@ public class Baz {
  *
  *  Variable a as default access, so it cannot be accessed from outside the package.
  *  Variable b as protected access in package pkgA
- * ______________________________________________________________________________
+ * _________________________________________________________________________________
  */
 
 /**

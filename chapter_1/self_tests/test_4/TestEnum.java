@@ -1,5 +1,3 @@
-package oca.exam_1Z0_808.chapter_1.self_tests.test_4;
-
 enum Animals {
     DOG("woof"), CAT("meow"), FISH("burble");
     String sound;
@@ -14,14 +12,14 @@ class TestEnum {
 }
 
 /**
- * ______________________________________________________________________________
+ * ___________________________________________
  *
  * CORRECT answers |
  * -----------------
  *  A. woof burble
  *
  *  Enums can have variables and constructors
- * ______________________________________________________________________________
+ * ___________________________________________
  */
 
 /**

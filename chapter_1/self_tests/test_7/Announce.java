@@ -1,4 +1,5 @@
-package oca.exam_1Z0_808.chapter_1.self_tests.test_7;
+
+
 
 class Announce {
     public static void main(String[] args) {
@@ -9,3 +10,24 @@ class Announce {
         }
     }
 }
+
+/**
+ * _______________________________________________________________________________________________________________
+ *
+ * CORRECT answers |
+ * -----------------
+ *  C. Compilation fails with an error on line 7
+ *  D. Compilation fails with an error on line 8
+ *
+ *  Variable names cannot begin with a #, and an array declaration can't include a size without an instantiation.
+ *  The rest of the code is valid
+ * _______________________________________________________________________________________________________________
+ */
+
+/**
+ * !! WRONG answers !!
+ * -------------------
+ *  A. Compilation succeeds
+ *  B. Compilation fails with an error on line 6
+ *  E. Compilation fails with an error on line 9
+ */

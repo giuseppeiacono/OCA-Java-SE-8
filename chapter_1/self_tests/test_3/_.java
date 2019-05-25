@@ -1,5 +1,3 @@
-package oca.exam_1Z0_808.chapter_1.self_tests.test_3;
-
 import static java.lang.System.*;
 
 public class _ {
@@ -13,14 +11,15 @@ public class _ {
 }
 
 /**
- * ______________________________________________________________________________
+ * _________________________________________________________
  *
  * CORRECT answers |
  * -----------------
  *  C. A.
  *
- *  Passing arguments {'-', 'A', '.'} we obtain this result
- * ______________________________________________________________________________
+ *  Executing the command line ---> java _ - A .
+ *  we obtain this result A.
+ * _________________________________________________________
  */
 
 /**
