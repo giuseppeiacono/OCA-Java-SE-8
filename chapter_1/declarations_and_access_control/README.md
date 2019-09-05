@@ -2,7 +2,7 @@
 
 ## Identifiers
 Legal identifiers only match the following pattern:
-![Alt text](readme_source_files/Identifiers-format.png?raw=true "Identifiers format")
+![Alt text](readme_source_files/identifiers-format.png?raw=true "Identifiers format")
 
 Some illegal identifiers
 ```
