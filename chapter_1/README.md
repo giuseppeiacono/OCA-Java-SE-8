@@ -39,3 +39,9 @@ static public void main(String bang_a_gong[])
 ## Declaring an interface
 
 ![Alt text](declarations_and_access_control/readme_source_files/declaring-an-interface.png?raw=true "Declaring an interface")
+
+## Declare class members
+The strategy below avoid mistakes answering questions concerning to access modifiers:
+
+![Alt text](declarations_and_access_control/readme_source_files/strategy-for-exercises-of-access-modifiers.png?raw=true "Strategy to answer to access modifiers' questions")
+
