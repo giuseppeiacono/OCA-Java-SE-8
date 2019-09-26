@@ -45,3 +45,6 @@ The strategy below avoid mistakes answering questions concerning to access modif
 
 ![Alt text](declarations_and_access_control/readme_source_files/strategy-for-exercises-of-access-modifiers.png?raw=true "Strategy to answer to access modifiers' questions")
 
+## Stack and Heap
+
+![Alt text](declarations_and_access_control/readme_source_files/stack-and-heap.png?raw=true "Stack and Heap")
