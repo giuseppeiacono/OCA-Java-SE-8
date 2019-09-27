@@ -1,5 +1,13 @@
 # Chapter 1 - Declarations and access control
 
++ [Identifiers](#identifiers)
++ [Special main method](#special-main-method)
++ [Access and Notaccess modifiers](#access-and-notaccess-modifiers)
++ [Class modifiers](#class-modifiers)
++ [Declaring an interface](#declaring-an-interface)
++ [Declare class members](#declare-class-members)
++ [Stack and Heap](#stack-and-heap)
+
 ## Identifiers
 Legal identifiers only match the following pattern:
 
