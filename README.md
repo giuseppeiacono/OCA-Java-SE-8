@@ -9,7 +9,7 @@ Bert Bates, <sub><sup>SCJP, OCA, OCP</sup></sub>
 
 ## Project Structure
 ORACLE book has six chapters, accordingly this project consists of six modules that contain:
-* one package for notes and examples related to the chapter content
+* one package for notes and/or examples related to the chapter content. I tried to resume those topics that are not totally clear to most programmers, in order to be ready for the exam!
 * __self_tests__ package which consists of one folder per exercise. On the bottom of Java files you will find comments regarding to both correct and wrong answers, like below:<br />
     ```java
     /**
