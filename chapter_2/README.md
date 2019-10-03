@@ -42,9 +42,7 @@ are instance methods. Not static methods. Not variables.
 ![Alt text](object_orientation/overloading-rules.png?raw=true "Overloading rules")
 
 The image below resumes the policy followed by JVM to decide which OVERRIDDEN and OVERLOADED methods should be invoked in case of **object reference variables**:
-![Alt text](object_orientation/overloading-rules.png?raw=true "Overloading rules")
 
-Policy followed by JVM to decide which OVERRIDDEN and OVERLOADED methods should be invoked in case of reference variables
 ![Alt text](object_orientation/overriden-and-overloaded-methods.png?raw=true "Overriden and overloaded methods")
 
 ## Casting
@@ -60,7 +58,7 @@ if(animal instanceof Dog) {
 + upcasting (implicit): from subtype to supertype
 ```java
 Dog d = new Dog();
-Animal a1 = d;            // upcast ok with no explicit cast
+Animal a1 = d;            // upcast ok with NO explicit cast
 Animal a2 = (Animal) d;   // upcast ok with an explicit cast
 ```
 
@@ -74,7 +72,7 @@ class Colour {
 }
 
 class Green extends Colour {
-   Green doSomething() {  // returned type is subtype of Colour, the extended class
+   Green doSomething() {  // returned type is subtype of overridden method's returned type
       return new Green();
    }
 }
@@ -84,26 +82,21 @@ class Green extends Colour {
 Some important key points that sometimes are not clear, even for the most experienced Java developers:
 1. every class, including ABSTRACT classes, MUST have a constructor (default or not)
 2. constructor of ABSTRACT classes are invoked when concrete subclasses are instantiated
-3. constructor can use any access modifier: default, private, protected and public
-4. method with the same name of the class is LEGAL, but it’s not a constructor!
-5. the first statement of a constructor is always a call to:
-   - overloaded constructor
-   - superclass constructor (always added by compiler)
+3. constructor can use any access modifier (__default__, __private__, __protected__ and __public)
+4. method with the same name of the class is LEGAL
+> !!! but it’s not a constructor !!!
+5. the first statement of a constructor must be always a call to only one of the following options:
+   - overloaded constructor -> `this()`
+   - superclass constructor -> `super()`
 6. you cannot make a call to an instance method or access an instance variable until after the super constructor runs
-7. super() and this() can access both static variable and methods
-8. constructors are NEVER INHERITED
-9. constructors can’t be OVERRIDEN
-10. constructors can be overloaded
-
 ![Alt text](object_orientation/constructor-invoke-static-method.png?raw=true "Constructor invokes a static method")
+7. `super()` and `this()` can access both static variables and methods
+8. constructors are NEVER INHERITED
+9. constructors can not be OVERRIDEN
+10. constructors can be overloaded
 
 Follow an example where the bad use of two constructors cause JVM crash!
 ![Alt text](object_orientation/constructor-cause-stackOverflowError.png?raw=true "Bad use of constructors cause an exception")
-
-The method super() was not added by developer, so it will never called, causing the following exception:
-```
-Exception in thread "main" java.lang.StackOverflowError
-```
 
 ## Initialization blocks
 ![Alt text](object_orientation/initialization-blocks.png?raw=true "Initialization blocks")
