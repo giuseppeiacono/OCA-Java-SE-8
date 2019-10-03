@@ -11,7 +11,7 @@
 ## Identifiers
 Legal identifiers only match the following pattern:
 
-![Alt text](declarations_and_access_control/readme_source_files/identifiers-format.png?raw=true "Identifiers format")
+![Alt text](declarations_and_access_control/identifiers-format.png?raw=true "Identifiers format")
 
 Some illegal identifiers
 ```
@@ -38,21 +38,21 @@ static public void main(String bang_a_gong[])
 
 ## Access and Notaccess modifiers
 
-![Alt text](declarations_and_access_control/readme_source_files/access-modifiers.png?raw=true "Access and Notaccess modifiers")
+![Alt text](declarations_and_access_control/access-modifiers.png?raw=true "Access and Notaccess modifiers")
 
 ## Class modifiers
 
-![Alt text](declarations_and_access_control/readme_source_files/class-modifiers.png?raw=true "Class modifiers")
+![Alt text](declarations_and_access_control/class-modifiers.png?raw=true "Class modifiers")
 
 ## Declaring an interface
 
-![Alt text](declarations_and_access_control/readme_source_files/declaring-an-interface.png?raw=true "Declaring an interface")
+![Alt text](declarations_and_access_control/declaring-an-interface.png?raw=true "Declaring an interface")
 
 ## Declare class members
 The strategy below avoid mistakes answering questions concerning to access modifiers:
 
-![Alt text](declarations_and_access_control/readme_source_files/strategy-for-exercises-of-access-modifiers.png?raw=true "Strategy to answer to access modifiers' questions")
+![Alt text](declarations_and_access_control/strategy-for-exercises-of-access-modifiers.png?raw=true "Strategy to answer to access modifiers' questions")
 
 ## Stack and Heap
 
-![Alt text](declarations_and_access_control/readme_source_files/stack-and-heap.png?raw=true "Stack and Heap")
+![Alt text](declarations_and_access_control/stack-and-heap.png?raw=true "Stack and Heap")
