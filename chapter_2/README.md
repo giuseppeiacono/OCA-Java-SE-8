@@ -1,5 +1,15 @@
 # Object orientation
 
++ [Inheritance](#inheritance)
++ [Polymorphism](#polymorphism)
++ [Overriden methods](#overriden-methods)
++ [Overloaded methods](#overloaded-methods)
++ [Casting](#casting)
++ [Covariant return](#covariant-return)
++ [Covariant return](#covariant-return)
++ [Constructors](#constructors)
++ [Initialization blocks](#initialization-blocks)
++ [Accessing Static Methods and Variables](#accessing-static-methods-and-variables)
 
 ## Inheritance
 The methods you can call on a reference are totally dependent on the declared type of the variable, no matter
@@ -72,7 +82,7 @@ class Colour {
 }
 
 class Green extends Colour {
-   Green doSomething() {  // returned type is subtype of overridden method's returned type
+   Green doSomething() {  // returned type is subtype of the overridden method's returned type
       return new Green();
    }
 }
@@ -82,10 +92,10 @@ class Green extends Colour {
 Some important key points that sometimes are not clear, even for the most experienced Java developers:
 1. every class, including ABSTRACT classes, MUST have a constructor (default or not)
 2. constructor of ABSTRACT classes are invoked when concrete subclasses are instantiated
-3. constructor can use any access modifier (__default__, __private__, __protected__ and __public)
+3. constructor can use any access modifier (__default__, __private__, __protected__ and __public__)
 4. method with the same name of the class is LEGAL
 > !!! but it’s not a constructor !!!
-5. the first statement of a constructor must be always a call to only one of the following options:
+5. the first statement of a constructor must be always only one of the following options:
    - overloaded constructor -> `this()`
    - superclass constructor -> `super()`
 6. you cannot make a call to an instance method or access an instance variable until after the super constructor runs
@@ -102,9 +112,9 @@ Follow an example where the bad use of two constructors cause JVM crash!
 ![Alt text](object_orientation/initialization-blocks.png?raw=true "Initialization blocks")
 
 ## Accessing Static Methods and Variables
-We can access static methods from object reference variables because JVM work as follow:
-1. look for the instance method with specified name, but it does not exist
-2. look for the static method with specified name in the class which match type of object reference variable. If It exists, it is ran
+We can access static methods from object reference variables because the JVM works as follow:
+1. look for the instance method with the specified name, but it does not exist
+2. look for the static method with the specified name in the class which match type of object reference variable. If It exists, it is ran
 ```java
 public class TestStaticMethod {
 
