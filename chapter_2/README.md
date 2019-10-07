@@ -6,7 +6,6 @@
 + [Overloaded methods](#overloaded-methods)
 + [Casting](#casting)
 + [Covariant return](#covariant-return)
-+ [Covariant return](#covariant-return)
 + [Constructors](#constructors)
 + [Initialization blocks](#initialization-blocks)
 + [Accessing Static Methods and Variables](#accessing-static-methods-and-variables)
