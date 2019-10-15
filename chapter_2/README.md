@@ -1,4 +1,4 @@
-# Object orientation
+# Chapter 2 - Object orientation
 
 + [Inheritance](#inheritance)
 + [Polymorphism](#polymorphism)
