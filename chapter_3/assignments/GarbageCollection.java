@@ -1,7 +1,7 @@
 import java.util.Date;
 
 /**
- * Example of how to make objects eligible for garbage collection
+ * Examples of how to make objects eligible for garbage collection
  */
 public class GarbageCollection {
 
@@ -41,7 +41,8 @@ public class GarbageCollection {
         i2.i = i1;
         i1 = null;
         i2 = null;
-        // the objects referred by instance variables of each object are eligible for collection because they have been nulled
+        // the objects referred by instance variables of each object
+        // are eligible for collection because they have been nulled
     }
 
     public static Date getDate() {
