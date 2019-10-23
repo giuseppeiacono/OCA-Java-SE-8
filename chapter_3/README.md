@@ -17,4 +17,4 @@ As you can see, String objects (right-side of the image) work in a different way
 
 
 ## Objects eligible for collection
-The file _assignments/GarbageCollection.java_ includes some code examples that explicitly makes objects eligible for collection.
+The file `assignments/GarbageCollection.java` includes some code examples that explicitly makes objects eligible for collection.
