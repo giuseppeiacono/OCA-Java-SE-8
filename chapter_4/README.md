@@ -18,32 +18,32 @@ That's why you MUST to know exactly how they work with object reference variable
 3. `equals()` of other kind of objects compare if reference variables point to the same object
 
 ## Logical operators
-The exam will include only these operators:
-> & _Non-short-circuit AND_
+The exam includes only these operators:
+> &     _Non-short-circuit AND_
 
-> | _Non-short-circuit OR_
+> |     _Non-short-circuit OR_
 
-> ^ _Exclusive or (XOR)_
+> ^     _Exclusive or (XOR)_
 
-> ! _Boolean invert_
+> !     _Boolean invert_
 
-> && _Short-circuit AND_
+> &&    _Short-circuit AND_
 
-> || _Short-circuit OR_
+> ||    _Short-circuit OR_
 
-> **WARNING: you'll have to know exactly which operands are
+```java
+**WARNING: you'll have to know exactly which operands are
            evaluated and which are not, because the result will vary depending on whether
            all operands in the expression are evaluated. Look at the example below:**
 
-```java
 int x = 1;
 if(++x > 1 || ++x > 9 || ++x == 9 || ++x == 5) {
-  System.out.println("x = " + x); // x = 2 because only the first operand is evaluated
+  System.out.println("x = " + x); // x = 2 because **only the first operand** is evaluated
 }
 
 int x = 1;
 if(++x > 1 | ++x > 9 | ++x == 9 | ++x == 5) {
-  System.out.println("x = " + x); // x = 5 because each operand is evaluated
+  System.out.println("x = " + x); // x = 5 because **each operand** is evaluated
 }
 ```
 
