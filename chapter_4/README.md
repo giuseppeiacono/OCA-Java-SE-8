@@ -1,12 +1,11 @@
 # Chapter 4 - Operators
 
-+ [Compare primitives values](#compare-primitives-values)
-+ [Compare objects](#compare-objects)
++ [Operators tips and tricks](#operators-tips-and-tricks)
++ [Compare objects with == and equals()](#compare-objects-with-==-and-equals())
 + [Logical operators](#logical-operators)
     - [Short-circuit logical operators](#short-circuit-ogical-operators)
     - [Non-short-circuit logical operators](#non-short-circuit-ogical-operators)
-+ [](#)
-
++ [Operator precedence](#operator-precedence)
 
 ## Operators tips and tricks
 The class `operators/Operators.java` resumes tips and tricks related to the use of the operators.
@@ -21,16 +20,20 @@ That's why you MUST to know exactly how they work with object reference variable
 ## Logical operators
 The exam will include only these operators:
 > & _Non-short-circuit AND_
+
 > | _Non-short-circuit OR_
+
 > ^ _Exclusive or (XOR)_
+
 > ! _Boolean invert_
+
 > && _Short-circuit AND_
+
 > || _Short-circuit OR_
 
-| WARNING: you'll have to know exactly which operands are
+> **WARNING: you'll have to know exactly which operands are
            evaluated and which are not, because the result will vary depending on whether
-           the second operand in the expression is evaluated. Look at the example below: |
-| --- |
+           all operands in the expression are evaluated. Look at the example below:**
 
 ```java
 int x = 1;
@@ -42,7 +45,7 @@ int x = 1;
 if(++x > 1 | ++x > 9 | ++x == 9 | ++x == 5) {
   System.out.println("x = " + x); // x = 5 because each operand is evaluated
 }
-```java
+```
 
 ### Short-circuit logical operators
 > && evaluates the second operands only if the first one is TRUE
