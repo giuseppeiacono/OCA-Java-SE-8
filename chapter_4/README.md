@@ -32,9 +32,9 @@ The exam includes only these operators:
 > ||    _Short-circuit OR_
 
 ```java
-//WARNING: you'll have to know exactly which operands are
-           evaluated and which are not, because the result will vary depending on whether
-           all operands in the expression are evaluated. Look at the example below:
+//WARNING: you'll have to know exactly which operands are evaluated and which are not,
+//         because the result will vary depending on whether all operands in the expression are evaluated.
+//         Look at the example below:
 
 int x = 1;
 if(++x > 1 || ++x > 9 || ++x == 9 || ++x == 5) {
