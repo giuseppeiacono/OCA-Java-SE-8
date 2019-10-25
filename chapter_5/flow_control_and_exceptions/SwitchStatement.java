@@ -5,6 +5,22 @@ public class SwitchStatement {
 
     public static void main(String[] args) {
 
+        // It's LEGAL because boxing is allowed into switch argument
+        // It works just like any other case for fall-through logic
+        switch(new Integer(4)) {
+            case 4: System.out.println("boxing is OK");
+        }
+
+        // DEFAULT clause can be placed anywhere you want
+        int x = 7;
+        switch (x) {
+            case 2: System.out.println("2");
+            default: System.out.println("default");
+            case 3: System.out.println("3");
+            case 4: System.out.println("4");
+        }
+
+
         // Compile error due to the second case argument (128) that is too large for a byte, the type of switch argument
         byte g = 2;
         switch(g) {
@@ -19,11 +35,6 @@ public class SwitchStatement {
                 System.out.println("80");
             case 80:
                 System.out.println("80");
-        }
-
-        // It's LEGAL because boxing is allowed into switch argument
-        switch(new Integer(4)) {
-            case 4: System.out.println("boxing is OK");
         }
 
         // ILLEGAL because the case keyword omits the colon
