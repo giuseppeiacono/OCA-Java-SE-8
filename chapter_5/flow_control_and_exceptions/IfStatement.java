@@ -1,5 +1,5 @@
 /**
- * Examples of difficulties that you could find in the exam concerning to if and switch statement.
+ * Examples of difficulties that you could find in the exam concerning to if statement.
  */
 public class IfStatement {
 

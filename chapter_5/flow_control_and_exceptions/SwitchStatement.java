@@ -1,3 +1,6 @@
+/**
+ * Examples of difficulties that you could find in the exam concerning to switch statement.
+ */
 public class SwitchStatement {
 
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 # Chapter 5 - Flow Control and Exceptions
 
-+ [](#)
++ [If statements](#if-statements)
++ [Switch statements](#switch-statements)
 
 
 ## If statements
