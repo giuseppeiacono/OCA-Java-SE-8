@@ -16,7 +16,7 @@ Look at `flow_control_and_exceptions/IfStatement.java` to get an idea about diff
 Look at `flow_control_and_exceptions/SwitchStatement.java` to get an idea about difficulties that you could find in the exam.
 
 ### Fall-through logic
-It's the execution of consecutive case `clauses` until either a `break` is found or the switch statement ends.
+It's the execution of consecutive `case` clauses until either a `break` is found or the switch statement ends.
 
 ```java
 int x = 1;
@@ -29,6 +29,7 @@ System.out.println("out of the switch");
 ```
 
 > Output of the previous code \
+> ---------------------------- \
 > x is one \
 > x is two \
 > x is three \
