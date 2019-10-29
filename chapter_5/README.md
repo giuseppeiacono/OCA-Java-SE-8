@@ -34,3 +34,8 @@ System.out.println("out of the switch");
 > x is two \
 > x is three \
 > out of the switch
+
+## Continue and break commands
+* `continue` MUST BE inside a loop
+* `break` MUST BE inside either a loop or a `switch` statement
+* in the other cases, we always get a compiler error
