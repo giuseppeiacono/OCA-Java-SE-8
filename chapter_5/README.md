@@ -14,8 +14,8 @@ Look at `flow_control_and_exceptions/IfStatement.java` to get an idea about diff
 
 ## Switch statements
 > A switch 's expression must evaluate to one of the following: \
->   - integer (char, byte, short, or int)
->   - enum
+>   - integer (char, byte, short, or int) \
+>   - enum \
 >   - String
 
 Look at `flow_control_and_exceptions/SwitchStatement.java` to get an idea about difficulties that you could find in the exam.
