@@ -3,6 +3,8 @@
 + [If statements](#if-statements)
 + [Switch statements](#switch-statements)
     - [Fall-through logic](#fall-through-logic)
++ [Continue and break commands](#continue-and-break-commands)
++ [Exceptions](#exceptions)
 
 
 ## If statements
@@ -11,7 +13,10 @@
 Look at `flow_control_and_exceptions/IfStatement.java` to get an idea about difficulties that you could find in the exam.
 
 ## Switch statements
-> A switch 's expression must evaluate to a char, byte, short, int, an enum or a String
+> A switch 's expression must evaluate to one of the following: \
+>   - integer (char, byte, short, or int)
+>   - enum
+>   - String
 
 Look at `flow_control_and_exceptions/SwitchStatement.java` to get an idea about difficulties that you could find in the exam.
 
@@ -39,3 +44,11 @@ System.out.println("out of the switch");
 * `continue` MUST BE inside a loop
 * `break` MUST BE inside either a loop or a `switch` statement
 * in the other cases, we always get a compiler error
+
+## Exceptions
+The image below shows Java exceptions hierarchy:
+* `RuntimeException` subclasses are called **Unchecked** exceptions
+* The other exceptions are called **Checked** exceptions
+
+![Alt text](flow_control_and_exceptions/exceptions-hierarchy.png?raw=true "Exceptions hierarchy")
+
